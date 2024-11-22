@@ -1,4 +1,4 @@
-FROM 763104351884.dkr.ecr.us-east-1.amazonaws.com/tensorflow-training:2.12.0-cpu-py310-vg
+FROM 763104351884.dkr.ecr.us-east-1.amazonaws.com/tensorflow-training:2.12.0-cpu-py310
 
 ADD ./vg.py /opt/ml/code/vg.py
 ADD ./requirements.txt /opt/ml/code/requirements.txt
